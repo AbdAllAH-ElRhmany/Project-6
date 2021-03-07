@@ -1,0 +1,559 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Travelo</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/const.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto capitalize">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Desination <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                pages
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                blog
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+              </div>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <ul class="links-social dis-flex">
+            <li><i class="icon fas fa-phone-alt"></i> +201558061662</li>
+            <li><a href="#"><i class="icon fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="icon fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="icon fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="icon fab fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="icon search-icon fas fa-search"></i></a></li>
+          </ul><!-- ./links-list -->
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Home Seacion -->
+      <secion class="home ">
+        <div id="slider" class="carousel slide home-content pos-rel txt-c" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#slider" data-slide-to="0" class="active"></li>
+            <li data-target="#slider" data-slide-to="1"></li>
+            <li data-target="#slider" data-slide-to="2"></li>
+          </ol>
+          <div class="overlay pos-abs">
+            <h2 class="home-content-overlay-title">Australia</h2>
+            <p class="home-content-overlay-text mb-4">Pixel perfect design with awesome contents</p>
+            <button type="button" class="btn btn-lg red-hover capitalize mt-3">Explore Now</button>
+          </div><!-- ./overlay -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100 h-100" src="images/banner.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 h-100" src="images/banner.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 h-100" src="images/banner2.png" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </secion><!-- ./Home Seacion -->
+      <!-- Search Section -->
+      <section class="search pad-60">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-12">
+              <h2 class="mt-2 mb-3">Where you want to go?</h2>
+            </div>
+            <div class="col-md-9">
+                <input type="text" placeholder="Where to go ?" class="mr-4 col-md-3 mb-3" name="" id="">  
+                <input type="date" name="" class="mr-4 col-md-3 mb-3" id="">
+                <select name="" id="" class="mr-4 col-md-3 mb-3 capitalize">
+                  <option value="" class="capitalize">travel type</option>
+                  <option value="" class="capitalize">travel type</option>
+                  <option value="" class="capitalize">travel type</option>
+                </select>
+                <button type="button" class="btn btn-lg blue-hover capitalize">search</button>
+            </div>
+          </div><!-- .row -->
+        </div><!-- ./container -->
+      </section><!-- ./Search Section -->
+      <!-- Destination Section -->
+      <section class="destination pad-120">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <div class="section-header txt-c mb-5">
+                <h2 class="section-header-title capitalize mb-3">Popular Destination</h2>
+                <p class="section-header-text">Suffered alteration in some form, by injected humour or good day randomised booth anim 8-bit hella wolf moon beard words.</p>
+              </div><!-- ./section-header -->
+            </div>
+          </div><!-- ./row -->
+          <div class="row">
+            <div class="dest-item col-lg-4 col-md-6 col-12 mb-4">
+              <div class="dest-item-img pos-rel">
+                <img src="images/1.png" class="width100" alt="">
+              <div class="dest-item-img-overlay pos-rel">
+                <div class="dest-item-img-overlay-content">
+                  <h3 class="capitalize mr-2">italy</h3>
+                  <span class="badge badge-pill badge-primary red-hover"> 07 Places</span>
+                </div><!-- ./dest-item-img-overlay-content -->
+              </div><!-- ./dest-item-img-overlay -->
+              </div><!-- ./dest-item-img -->
+            </div><!-- ./dest-item -->
+            <div class="dest-item col-lg-4 col-md-6 col-12 mb-4">
+              <div class="dest-item-img pos-rel">
+                <img src="images/2.png" class="width100" alt="">
+              <div class="dest-item-img-overlay pos-rel">
+                <div class="dest-item-img-overlay-content">
+                  <h3 class="capitalize mr-2">italy</h3>
+                  <span class="badge badge-pill badge-primary red-hover"> 07 Places</span>
+                </div><!-- ./dest-item-img-overlay-content -->
+              </div><!-- ./dest-item-img-overlay -->
+              </div><!-- ./dest-item-img -->
+            </div><!-- ./dest-item -->
+            <div class="dest-item col-lg-4 col-md-6 col-12 mb-4">
+              <div class="dest-item-img pos-rel">
+                <img src="images/3.png" class="width100" alt="">
+              <div class="dest-item-img-overlay pos-rel">
+                <div class="dest-item-img-overlay-content">
+                  <h3 class="capitalize mr-2">italy</h3>
+                  <span class="badge badge-pill badge-primary red-hover"> 07 Places</span>
+                </div><!-- ./dest-item-img-overlay-content -->
+              </div><!-- ./dest-item-img-overlay -->
+              </div><!-- ./dest-item-img -->
+            </div><!-- ./dest-item -->
+            <div class="dest-item col-lg-4 col-md-6 col-12 mb-4">
+              <div class="dest-item-img pos-rel">
+                <img src="images/4.png" class="width100" alt="">
+              <div class="dest-item-img-overlay pos-rel">
+                <div class="dest-item-img-overlay-content">
+                  <h3 class="capitalize mr-2">italy</h3>
+                  <span class="badge badge-pill badge-primary red-hover"> 07 Places</span>
+                </div><!-- ./dest-item-img-overlay-content -->
+              </div><!-- ./dest-item-img-overlay -->
+              </div><!-- ./dest-item-img -->
+            </div><!-- ./dest-item -->
+            <div class="dest-item col-lg-4 col-md-6 col-12 mb-4">
+              <div class="dest-item-img pos-rel">
+                <img src="images/5.png" class="width100" alt="">
+              <div class="dest-item-img-overlay pos-rel">
+                <div class="dest-item-img-overlay-content">
+                  <h3 class="capitalize mr-2">italy</h3>
+                  <span class="badge badge-pill badge-primary red-hover"> 07 Places</span>
+                </div><!-- ./dest-item-img-overlay-content -->
+              </div><!-- ./dest-item-img-overlay -->
+              </div><!-- ./dest-item-img -->
+            </div><!-- ./dest-item -->
+            <div class="dest-item col-lg-4 col-md-6 col-12 mb-4">
+              <div class="dest-item-img pos-rel">
+                <img src="images/6.png" class="width100" alt="">
+              <div class="dest-item-img-overlay pos-rel">
+                <div class="dest-item-img-overlay-content">
+                  <h3 class="capitalize mr-2">italy</h3>
+                  <span class="badge badge-pill badge-primary red-hover"> 07 Places</span>
+                </div><!-- ./dest-item-img-overlay-content -->
+              </div><!-- ./dest-item-img-overlay -->
+              </div><!-- ./dest-item-img -->
+            </div><!-- ./dest-item -->
+            
+          </div><!-- ./row -->
+        </div><!-- ./container -->
+      </section><!-- ./Destination Section -->
+      <!-- Subscribe Section -->
+      <section class="subscribe  pos-rel">
+        <div class="subscribe-overlay">
+          <div class="container">
+            <div class="row subscribe-content justify-content-center align-items-center">
+              <div class="col-lg-10 col-md-10 col-12">
+                  <div class="row align-items-center">
+                    <div class="col-lg-5 col-12">
+                      <h3 class="capitalize">Subscribe Our Newsletter</h3>
+                      <p>Subscribe newsletter to get offers and about new places to discover.</p>
+                    </div>
+                    <div class="col-lg-7 col-md-12">
+                      <div class="row align-items-center ">
+                        <div class="col-md-8 col-12 mb-3">
+                          <input type="text" name="" placeholder="Your mail" class="width100" id="">
+                        </div>
+                        <div class="col-md-4 col-12 mb-3">
+                          <button type="button" class="btn btn-lg blue-hover width100 capitalize">subscribe</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div><!-- ./container -->
+        </div><!-- ./subscribe-content -->
+      </section><!-- ./Subscribe Section -->
+      <!-- Popular Places Section -->
+      <section class="popular pad-120">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <div class="section-header txt-c mb-5">
+                <h2 class="section-header-title capitalize mb-3">Popular places</h2>
+                <p class="section-header-text">Suffered alteration in some form, by injected humour or good day randomised booth anim 8-bit hella wolf moon beard words.</p>
+              </div><!-- ./section-header -->
+            </div>
+          </div><!-- ./row -->
+          <div class="popular-content txt-c">
+            <div class="row mb-4">
+              <div class="popular-content-item col-lg-4 col-md-6 col-12 mb-4">
+                <div class="card pos-rel width100">
+                  <img src="images/1 (2).png" class="card-img-top" alt="...">
+                  <a href="#" class="price red-hover txt-c">$500</a>
+                  <div class="card-body">
+                    <h5 class="card-title capitalize">California</h5>
+                    <p class="card-text capitalize">United State of America</p>
+                    <div class="rateing dis-flex justify-content-between">
+                      <div class="review mg-b-10">
+                        <i class="icon fas fa-star"></i>
+                        <i class="icon fas fa-star"></i>
+                        <i class="icon fas fa-star"></i>
+                        <i class="icon fas fa-star"></i>
+                        <i class="icon fas fa-star"></i>
+                        <a href="#">(20 Review)</a>
+                      </div><!-- ./review -->
+                      <div class="period">
+                        <i class="icon far fa-clock"></i>
+                        <a href="#">5 Days</a>
+                      </div><!-- ./period -->
+                    </div><!-- ./rateing -->
+                  </div><!-- ./card-body -->
+                </div><!-- ./card -->
+              </div><!-- ./popular-content-item -->
+              <div class="popular-content-item col-lg-4 col-md-6 col-12 mb-4">
+                <div class="card pos-rel width100">
+                  <img src="images/2 (2).png" class="card-img-top" alt="...">
+                  <a href="#" class="price red-hover txt-c">$500</a>
+                  <div class="card-body">
+                    <h5 class="card-title capitalize">California</h5>
+                    <p class="card-text capitalize">United State of America</p>
+                    <div class="rateing dis-flex justify-content-between">
+                      <div class="review mg-b-10">
+                        <i class="icon fas fa-star"></i>
+                        <i class="icon fas fa-star"></i>
+                        <i class="icon fas fa-star"></i>
+                        <i class="icon fas fa-star"></i>
+                        <i class="icon fas fa-star"></i>
+                        <a href="#">(20 Review)</a>
+                      </div><!-- ./review -->
+                      <div class="period">
+                        <i class="icon far fa-clock"></i>
+                        <a href="#">5 Days</a>
+                      </div><!-- ./period -->
+                    </div><!-- ./rateing -->
+                  </div><!-- ./card-body -->
+                </div><!-- ./card -->
+              </div><!-- ./popular-content-item -->
+              <div class="popular-content-item col-lg-4 col-md-6 col-12 mb-4">
+                <div class="card pos-rel width100">
+                  <img src="images/3 (1).png" class="card-img-top" alt="...">
+                  <a href="#" class="price red-hover txt-c">$500</a>
+                  <div class="card-body">
+                    <h5 class="card-title capitalize">California</h5>
+                    <p class="card-text capitalize">United State of America</p>
+                    <div class="rateing dis-flex justify-content-between">
+                      <div class="review mg-b-10">
+                        <i class="icon fas fa-star"></i>
+                        <i class="icon fas fa-star"></i>
+                        <i class="icon fas fa-star"></i>
+                        <i class="icon fas fa-star"></i>
+                        <i class="icon fas fa-star"></i>
+                        <a href="#">(20 Review)</a>
+                      </div><!-- ./review -->
+                      <div class="period">
+                        <i class="icon far fa-clock"></i>
+                        <a href="#">5 Days</a>
+                      </div><!-- ./period -->
+                    </div><!-- ./rateing -->
+                  </div><!-- ./card-body -->
+                </div><!-- ./card -->
+              </div><!-- ./popular-content-item -->
+              <div class="popular-content-item col-lg-4 col-md-6 col-12 mb-4">
+                <div class="card pos-rel width100">
+                  <img src="images/4 (1).png" class="card-img-top" alt="...">
+                  <a href="#" class="price red-hover txt-c">$500</a>
+                  <div class="card-body">
+                    <h5 class="card-title capitalize">California</h5>
+                    <p class="card-text capitalize">United State of America</p>
+                    <div class="rateing dis-flex justify-content-between">
+                      <div class="review mg-b-10">
+                        <i class="icon fas fa-star"></i>
+                        <i class="icon fas fa-star"></i>
+                        <i class="icon fas fa-star"></i>
+                        <i class="icon fas fa-star"></i>
+                        <i class="icon fas fa-star"></i>
+                        <a href="#">(20 Review)</a>
+                      </div><!-- ./review -->
+                      <div class="period">
+                        <i class="icon far fa-clock"></i>
+                        <a href="#">5 Days</a>
+                      </div><!-- ./period -->
+                    </div><!-- ./rateing -->
+                  </div><!-- ./card-body -->
+                </div><!-- ./card -->
+              </div><!-- ./popular-content-item -->
+              <div class="popular-content-item col-lg-4 col-md-6 col-12 mb-4">
+                <div class="card pos-rel width100">
+                  <img src="images/5 (1).png" class="card-img-top" alt="...">
+                  <a href="#" class="price red-hover txt-c">$500</a>
+                  <div class="card-body">
+                    <h5 class="card-title capitalize">California</h5>
+                    <p class="card-text capitalize">United State of America</p>
+                    <div class="rateing dis-flex justify-content-between">
+                      <div class="review mg-b-10">
+                        <i class="icon fas fa-star"></i>
+                        <i class="icon fas fa-star"></i>
+                        <i class="icon fas fa-star"></i>
+                        <i class="icon fas fa-star"></i>
+                        <i class="icon fas fa-star"></i>
+                        <a href="#">(20 Review)</a>
+                      </div><!-- ./review -->
+                      <div class="period">
+                        <i class="icon far fa-clock"></i>
+                        <a href="#">5 Days</a>
+                      </div><!-- ./period -->
+                    </div><!-- ./rateing -->
+                  </div><!-- ./card-body -->
+                </div><!-- ./card -->
+              </div><!-- ./popular-content-item -->
+              <div class="popular-content-item col-lg-4 col-md-6 col-12 mb-4">
+                <div class="card pos-rel width100">
+                  <img src="images/6 (1).png" class="card-img-top" alt="...">
+                  <a href="#" class="price red-hover txt-c">$500</a>
+                  <div class="card-body">
+                    <h5 class="card-title capitalize">California</h5>
+                    <p class="card-text capitalize">United State of America</p>
+                    <div class="rateing dis-flex justify-content-between">
+                      <div class="review mg-b-10">
+                        <i class="icon fas fa-star"></i>
+                        <i class="icon fas fa-star"></i>
+                        <i class="icon fas fa-star"></i>
+                        <i class="icon fas fa-star"></i>
+                        <i class="icon fas fa-star"></i>
+                        <a href="#">(20 Review)</a>
+                      </div><!-- ./review -->
+                      <div class="period">
+                        <i class="icon far fa-clock"></i>
+                        <a href="#">5 Days</a>
+                      </div><!-- ./period -->
+                    </div><!-- ./rateing -->
+                  </div><!-- ./card-body -->
+                </div><!-- ./card -->
+              </div><!-- ./popular-content-item -->
+            </div><!-- ./row -->
+            <button type="button" class="btn btn-lg blue-hover capitalize">More Places</button>
+          </div><!-- ./popular-content -->
+        </div><!-- ./container -->
+      </section><!-- ./Popular Places Section -->
+      <!-- Video Section -->
+      <section class="video pos-rel">
+        <div class="video-content pos-abs txt-c">
+          <h2 class="video-content-overlay-title capitalize mb-5">enjoy video</h2>
+        <div class="video-icon">
+          <a href="#"><i class="icon fa fa-play"></i></a>
+        </div><!-- ./video-icon -->
+        </div><!-- ./video-content -->
+      </section><!-- ./Video Section -->
+      <!-- About Section -->
+      <section class="about pad-120">
+        <div class="container">
+          <div class="row">
+            <div class="about-item txt-c mb-5 col-lg-4 col-md-6 col-12">
+              <img src="images/1.svg" class="mb-4" alt="">
+              <h3 class="about-item-title capitalize">Comfortable Journey</h3>
+              <p class="about-item-text">A wonderful serenity has taken to the possession of my entire soul.</p>
+            </div><!-- ./about-item -->
+            <div class="about-item txt-c mb-5 col-lg-4 col-md-6 col-12">
+              <img src="images/2.svg" class="mb-4" alt="">
+              <h3 class="about-item-title capitalize">Comfortable Journey</h3>
+              <p class="about-item-text">A wonderful serenity has taken to the possession of my entire soul.</p>
+            </div><!-- ./about-item -->
+            <div class="about-item txt-c mb-5 col-lg-4 col-md-6 col-12">
+              <img src="images/3.svg" class="mb-4" alt="">
+              <h3 class="about-item-title capitalize">Comfortable Journey</h3>
+              <p class="about-item-text">A wonderful serenity has taken to the possession of my entire soul.</p>
+            </div><!-- ./about-item -->
+          </div><!-- ./row -->
+        </div><!-- ./container -->
+      </section><!-- ./About Section -->
+      <!-- Testimonials Secion -->
+      <section class="testimonails txt-c pad-120">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="testi-img pos-rel mb-5">
+                <img src="images/author.png" alt="">
+                <div class="small-img"><i class="icon fas fa-quote-left"></i></div>
+              </div><!-- ./testi-img -->
+              <p class="testi-text">"Working in conjunction with humanitarian aid agencies, we have 
+                supported programmes to help alleviate human suffering.</p>
+                <span class="testi-title capitalize mb-4">- Jerry Mouse</span>
+                <ul class="dis-flex justify-content-center">
+                  <li class="active"></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+            </div>
+          </div><!-- ./row -->
+        </div><!-- ./container -->
+      </section><!-- ./Testimonials Secion -->
+      <!-- Recent Section -->
+      <section class="recent pad-120">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <div class="section-header txt-c mb-5">
+                <h2 class="section-header-title capitalize mb-3">recent trips</h2>
+              </div><!-- ./section-header -->
+            </div>
+          </div><!-- ./row -->
+          <div class="row">
+            <div class="recent-content-item mb-4 col-lg-4 col-md-6 col-12">
+              <div class="card mb-3">
+                <img src="images/1 (3).png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <span class="card-date">Oct 12, 2019</span>
+                  <a href="#" class="card-title mt-2">Journeys Are Best Measured In New Friends</a>
+                </div><!-- ./card-body -->
+              </div><!-- ./card -->
+            </div><!-- ./recent-content-item -->
+            <div class="recent-content-item mb-4 col-lg-4 col-md-6 col-12">
+              <div class="card mb-3">
+                <img src="images/3 (2).png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <span class="card-date">Oct 12, 2019</span>
+                  <a href="#" class="card-title mt-2">Journeys Are Best Measured In New Friends</a>
+                </div><!-- ./card-body -->
+              </div><!-- ./card -->
+            </div><!-- ./recent-content-item -->
+            <div class="recent-content-item mb-4 col-lg-4 col-md-6 col-12">
+              <div class="card mb-3">
+                <img src="images/2 (4).png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <span class="card-date">Oct 12, 2019</span>
+                  <a href="#" class="card-title mt-2">Journeys Are Best Measured In New Friends</a>
+                </div><!-- ./card-body -->
+              </div><!-- ./card -->
+            </div><!-- ./recent-content-item -->
+          </div>
+        </div><!-- ./container -->
+      </section><!-- ./Recent Section -->
+      <!-- Links Section -->
+      <section class="links pad-120">
+        <div class="container">
+          <div class="row">
+            <div class="links-item col-lg-4 col-md-6 col-12">
+              <div class="links-item-logo mb-4">
+                <img src="images/footer_logo.png" alt="">
+              </div><!-- ./links-item-logo -->
+              <p class="mb-5">5th flora, 700/D kings road, green <br> lane New York-1782 <br>
+                <a href="#">+10 367 826 2567</a> <br>
+                <a href="#">contact@carpenter.com</a>
+                </p>
+                <ul class="links-social-list dis-flex">
+                  <li class="opacity-hover"><a href="#"><i class="icon fab fa-twitter"></i></a></li>
+                  <li class="opacity-hover"><a href="#"><i class="icon fab fa-facebook-f"></i></a></li>
+                  <li class="opacity-hover"><a href="#"><i class="icon fab fa-instagram"></i></a></li>
+                  <li class="opacity-hover"><a href="#"><i class="icon fab fa-skype"></i></a></li>
+                  <li class="opacity-hover"><a href="#"><i class="icon fab fa-linkedin"></i></a></li>
+                </ul><!-- ./links-list -->
+            </div><!-- ./links-item -->
+            <div class="links-item col-lg-2 col-md-6 col-12">
+              <div class="links-item-title capitalize mb-4">company</div>
+              <ul class="links-list">
+                <li><a href="#" class="capitalize mb-3">pricing</a></li>
+                <li><a href="#" class="capitalize mb-3">about</a></li>
+                <li><a href="#" class="capitalize mb-3">gallery</a></li>
+                <li><a href="#" class="capitalize mb-3">contact</a></li>
+              </ul><!-- ./links-list -->
+            </div><!-- ./links-item -->
+            <div class="links-item col-lg-3 col-md-6 col-12">
+              <div class="links-item-title capitalize mb-4">Popular destination</div>
+              <div class="dis-flex justify-content-between pr-4">
+                <ul class="links-list">
+                  <li><a href="#" class="capitalize mb-3">Indonesia</a></li>
+                  <li><a href="#" class="capitalize mb-3">India</a></li>
+                  <li><a href="#" class="capitalize mb-3">Italy</a></li>
+                  <li><a href="#" class="capitalize mb-3">Franch</a></li>
+                </ul><!-- ./links-list -->
+                <ul class="links-list">
+                  <li><a href="#" class="capitalize mb-3">America</a></li>
+                  <li><a href="#" class="capitalize mb-3">Switzerland</a></li>
+                  <li><a href="#" class="capitalize mb-3">Canada</a></li>
+                  <li><a href="#" class="capitalize mb-3">England</a></li>
+                </ul><!-- ./links-list -->
+              </div>
+            </div><!-- ./links-item -->
+            <div class="links-item col-lg-3 col-md-6 col-12">
+              <div class="links-item-title capitalize mb-4">Popular destination</div>
+              <div class="list-content">
+                <div class="width30 float-l"><a href="#"><img src="images/1 (1).png" class="width100 mb-3" alt=""></a></div>
+                <div class="width30 float-l"><a href="#"><img src="images/2 (5).png" class="width100 mb-3" alt=""></a></div>
+                <div class="width30 float-l"><a href="#"><img src="images/3 (3).png" class="width100 mb-3" alt=""></a></div>
+                <div class="width30 float-l"><a href="#"><img src="images/4 (2).png" class="width100 mb-3" alt=""></a></div>
+                <div class="width30 float-l"><a href="#"><img src="images/5 (2).png" class="width100 mb-3" alt=""></a></div>
+                <div class="width30 float-l"><a href="#"><img src="images/6 (2).png" class="width100 mb-3" alt=""></a></div>
+              </div>
+            </div><!-- ./links-item -->
+          </div><!-- ./row -->
+        </div><!-- ./container -->
+      </section><!-- ./Links Section -->
+      <footer>
+        <div class="container">
+          <div class="hr"></div>
+          <p class="copy_right text-center">
+            Copyright © 2020 All rights reserved | This template is made with
+            <i class="icon far fa-heart"></i> by <a href="#">AbdAllAH Elrhmany</a>
+          </p>
+        </div><!-- ./container -->
+      </footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> 
+    <script src="Js/bootstrap.js"></script>
+  </body>
+</html>
